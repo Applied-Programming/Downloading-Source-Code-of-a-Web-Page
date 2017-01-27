@@ -23,7 +23,7 @@ class SimpleFrame extends JFrame implements ActionListener {
     private PrintWriter out;
     private JTextField urltext;
     private JTextArea text;
-    private JLabel urlLbl;
+    private JLabel urlLabel;
     private JEditorPane edit;
 
     public SimpleFrame() {
@@ -38,8 +38,8 @@ class SimpleFrame extends JFrame implements ActionListener {
 
         getContentPane().setLayout(new FlowLayout(FlowLayout.LEFT));
 
-        urlLbl = new JLabel("Please enter a URL to download");
-        getContentPane().add(urlLbl);
+        urlLabel = new JLabel("Please enter a URL to download");
+        getContentPane().add(urlLabel);
 
         urltext = new JTextField(20);
         urltext.setText("http://");
